@@ -5,7 +5,7 @@ Inspirado por esa idea, este proyecto explora cómo aplicar ese tipo de **motion
 
 ## ✨ Vista previa
 
-> [🔗 Ver video de demostración](#) <!-- Puedes reemplazar # con el link real al video cuando lo tengas subido -->
+> [🔗 Ver video de demostración](https://introweb-mauve.vercel.app/) <!-- Puedes reemplazar # con el link real al video cuando lo tengas subido -->
 
 ## 🚀 Tecnologías utilizadas
 
