@@ -1,0 +1,100 @@
+:root{
+    --font:"Cormorant Garamond", serif;
+    --font--2: "Special Gothic Expanded One", sans-serif
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color : #fff;
+}
+
+html, body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #121212;
+}
+
+h1.header{
+    font-family: var(--font--2);
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 90%;
+
+}
+
+.header .letter{
+    display: inline-block;
+    line-height: 1em;
+}
+
+
+.titles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-weight: 500;
+    font-size: 200px;
+    font-family: var(--font--2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul.titles{
+    display: flex;
+}
+
+ul.blocks{
+    margin:0%;
+    padding: 0%;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+li.block{
+    height: 100vh;
+}
+
+.block-1{
+    width: 0.2;
+    margin: 0 10px;
+    background-color: #da0510;
+}
+.block-2{
+    width:1.4%;
+    margin: 0 200px 0 20px;
+    background-color: #053ada;
+}
+.block-3{
+    width: 0.8%;
+    margin: 0 40px;
+    background-color: #d7da0e;
+}
+.block-4{
+    width: 2%;
+    margin: 0 400px;
+    background-color: #820469;
+}
+.block-5{
+    width: 0.8%;
+    margin: 0 20px;
+    background-color: #05ff22;
+}
+.block-6{
+    width:2.8%;
+    background-color: #c505da;
+}
+
